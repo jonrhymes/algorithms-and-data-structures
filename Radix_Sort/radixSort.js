@@ -1,6 +1,9 @@
 // Radix Sort
 // Not a comparison sort. Takes advantage of a special property in numbers which will sort into buckets [0 - 9], starting from the 1s-column then 10s, 100s, etc. 
 
+// Time Complexity: O(nk)
+// Space Complexity: O(n + k)
+
 // Helper - Get Digit (moves from right to left)
 
 function getDigit(num, i) {
