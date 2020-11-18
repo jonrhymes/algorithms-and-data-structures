@@ -1,5 +1,6 @@
 // BIG O COMPLEXITY: 
 // Removal - depends... O(N) if at end of list
+// Not constant time
 
 class Node {
     constructor(val) {

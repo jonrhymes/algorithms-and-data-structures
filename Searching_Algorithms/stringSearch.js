@@ -44,3 +44,4 @@ function stringSearch(long, short) {
 
 
 console.log(stringSearch("lorie loled", "lol"))
+console.log(stringSearch("bcdbcdbcdbcd", "bcd"))

@@ -98,7 +98,7 @@ class SinglyLinkedList{
         };
         // OR: if(index === 0) return !!this.unshift(val);
 
-        var newNode = newNode(val);
+        var newNode = new Node(val);
         var previous = this.get(index - 1);
         var temp = previous.next;
         previous.next = newNode;
@@ -115,6 +115,6 @@ list.push("Yes")
 list.push("No")
 console.log("BEFORE:")
 console.log(list)
-list.insert(0, "INSERT")
+console.log(list.insert(0, "INSERT"))
 console.log("AFTER:")
 console.log(list)
