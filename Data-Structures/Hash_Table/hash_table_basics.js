@@ -2,6 +2,12 @@
 // Like arrays, but keys are not ordered
 // Fast for finding, adding and removing values
 
+// BIG O-Complexity
+// INSERT: O(1)
+// DELETION: O(1)
+// ACCESS: O(1)
+
+
 // function hash(key, arrayLen) {
 //     let total = 0;
 //     for (let char of key) {
