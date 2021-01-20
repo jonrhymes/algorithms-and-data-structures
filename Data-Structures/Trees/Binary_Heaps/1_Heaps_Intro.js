@@ -1,7 +1,7 @@
 // MaxBinaryHeap - Parent nodes are always larger than child nodes. Fill in left first
 // MinBinaryHeap - Parent nodes are always smaller than child nodes 
 
-// Time Complexity - O(log N)
+// Time Complexity - O(log N) insertion and removal
 // MaxBinaryHeap:
 
 class MaxBinaryHeap {

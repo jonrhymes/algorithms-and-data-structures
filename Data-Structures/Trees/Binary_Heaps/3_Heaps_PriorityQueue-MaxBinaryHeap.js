@@ -1,7 +1,7 @@
 // Priority Queue: Assigning where a value goes based on priority. Value doesn't matter.
 
-// MAX BINARY HEAP - lower number means higher priority
-
+// MAX BINARY HEAP - higher number means higher priority
+// Time Complexity - O(log N) insertion and removal
 class PriorityQueue {
     constructor() {
         this.values = [];
