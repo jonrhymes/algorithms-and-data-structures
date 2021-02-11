@@ -1,4 +1,3 @@
-
 var findMaxConsecutiveOnes = function (nums) {
     var max = 0;
     var window = 0;
