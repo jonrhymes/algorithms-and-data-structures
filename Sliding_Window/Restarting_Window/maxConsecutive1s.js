@@ -1,3 +1,5 @@
+// Given a binary array, find the maximum number of consecutive 1s in this array.
+
 // O(n) time and O(1) non-input space
 
 var findMaxConsecutiveOnes = function (nums) {
